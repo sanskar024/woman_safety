@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Policewidget extends StatelessWidget {
-  const Policewidget({super.key});
+class FirebrigadeWidget extends StatelessWidget {
+  const FirebrigadeWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +38,7 @@ class Policewidget extends StatelessWidget {
                 radius: 20,
                 backgroundColor: Colors.white.withOpacity(0.2),
                 child: Image.asset(
-                  "assets/images/alert.png",
+                  "assets/images/.png",
                   height: 24,
                   width: 24,
                 ),
@@ -58,7 +58,7 @@ class Policewidget extends StatelessWidget {
               // ⬇ Small subtitle
              
               Text(
-                "Call 1-1-2 for emergencies",
+                "Call 0-1-5 for emergencies",
                 style: TextStyle(
                   color: Colors.white.withOpacity(0.9),
                   fontSize: MediaQuery.of(context).size.width * 0.035,
@@ -77,7 +77,7 @@ class Policewidget extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: const Text(
-                  "1-1-2",
+                  "0-1-5",
                   style: TextStyle(
                     color: Colors.redAccent,
                     fontWeight: FontWeight.bold,

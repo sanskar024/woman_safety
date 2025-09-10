@@ -19,7 +19,7 @@ List<String> imageSliders = [
   "https://media.istockphoto.com/photos/confidence-and-strength-concept-picture-id1086700012?k=20&m=1086700012&s=612x612&w=0&h=1wWVN3AB7BH7o3y2A2b-NG3HB9H6Dwkc9OLz2lxgwAY=",
 ];
 List<String>urls=[
-  "https://www.unwomen.org/en",
+  "https://timesofindia.indiatimes.com/readersblog/joonakkonwar/women-empowerment-3-26133/",
   "https://equalitynow.org",
   "https://www.globalfundforwomen.org",
   "https://www.womenforwomen.org",
