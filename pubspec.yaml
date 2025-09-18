@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_login: ^5.1.0
+  flutter_phone_direct_caller: ^2.2.1
+  url_launcher: ^6.3.2
   webview_flutter: ^4.4.2
 
 dev_dependencies:

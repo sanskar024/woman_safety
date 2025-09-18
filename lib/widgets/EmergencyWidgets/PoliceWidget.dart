@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 
 class Policewidget extends StatelessWidget {
   const Policewidget({super.key});
+_callNumber(String number) async{
 
+await FlutterPhoneDirectCaller.callNumber(number);
+}
   @override
   Widget build(BuildContext context) {
     return Padding(

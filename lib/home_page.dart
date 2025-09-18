@@ -5,6 +5,9 @@ import 'package:women_safety/widgets/appbar.dart';
 import 'package:women_safety/utils/items.dart';
 import 'package:women_safety/widgets/carousel.dart';
 import 'package:women_safety/widgets/EmergencyWidgets/emergencywidgets.dart';
+import 'package:women_safety/widgets/Lifesave/lifesave.dart'; 
+import 'package:women_safety/widgets/Safehome.dart/safeHome.dart';
+
 
 class HomePage extends StatefulWidget {
   
@@ -60,6 +63,18 @@ void getrandom(){
 
               ),
               EmergencyWidgets(),
+              Padding(padding: const EdgeInsets.all(8.0),
+              child: Text("Explore Livesafe", style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),),
+             
+             
+
+              ),
+              Lifesave(),
+             Safehome(),
           
             ],
           
