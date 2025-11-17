@@ -3,9 +3,7 @@ List sweetSayings = [
   "We admire,Your strong personality.",
   "We’ll help you In any way we can,",
   "You are Strong and courageous",
- 
 ];
-
 List<String> articleTitle = [
   "Equal rights",
   "We have to end Violance",

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:women_safety/home_page.dart';
+import 'package:women_safety/bottom_navigation/bottom.dart';
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,7 @@ class MainApp extends StatelessWidget {
       
       home: Scaffold(
         body: Center(
-          child: HomePage(),
+          child: Bottom(),
         ),
       ),
     );
